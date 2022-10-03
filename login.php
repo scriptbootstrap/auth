@@ -20,7 +20,7 @@ include("../include/seo.php");
   <meta name="keywords" content="<?= $metaKeywords; ?>">
   <meta name="author" content="<?= $metaAuthor; ?>">
   <meta content='width=device-width, initial-scale=1.0, shrink-to-fit=no' name='viewport' />
-  <title>Masuk Akun Sistem Dokumen Pengadaan Barang Dan Jasa - SiKuDaBaJa</title>
+  <title></title>
 
   <!-- FONTAWESOME -->
   <link rel="stylesheet" href="../assets/fontawesome-free-6.1.1-web/css/all.min.css">
@@ -38,7 +38,7 @@ include("../include/seo.php");
   <!-- CSS Files -->
   <link rel="stylesheet" href="../dashboard/assets/css/bootstrap.min.css">
 
-  <link rel="icon" href="../assets/img/Logo_BPS.png?v=<?= time(); ?>" type="image/x-icon" />
+  <link rel="icon" href="../assets/img/?v=<?= time(); ?>" type="image/x-icon" />
 
 </head>
 
@@ -53,12 +53,12 @@ include("../include/seo.php");
           <div class="col-lg-12">
             <div class="p-3">
               <div class="text-center">
-                <img src="../assets/img/Logo_BPS.png" alt="SiKuDaBaJa" width="100" class="mb-2">
+                <img src="../assets/img/" alt="" width="100" class="mb-2">
                 <h1 class="h4 mb-2 ff-poppins">
-                  SISTEM DOKUMEN <br>PENGADAAN BARANG DAN JASA<br>
-                  <span class="text-skb-1">SiKuDaBaJa</span>
+                  <br><br>
+                  <span class=""></span>
                 </h1>
-                <span class="text-secondary ff-poppins-14">Selamat datang di Sistem Dokumen Pengadaan Barang Dan Jasa SiKuDaBaJa
+                <span class="text-secondary ff-poppins-14">
                 </span>
               </div>
 
@@ -66,7 +66,7 @@ include("../include/seo.php");
               <?php if (!isset($error)) : ?>
                 <div class="alert alert-info-login alert-dismissible fade show ff-poppins" role="alert">
                   <strong><i class="bi bi-info-circle-fill"></i> </strong>
-                  Anda harus login untuk melanjutkan
+                  Login!
                   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
               <?php endif; ?>
@@ -94,7 +94,7 @@ include("../include/seo.php");
                 </div>
 
                 <div class="input-group mb-3">
-                  <button type="submit" name="login" class="border-0 rounded-2 bg-skb-1-hover ff-poppins-14">Masuk Akun</button>
+                  <button type="submit" name="login" class="border-0 rounded-2 ff-poppins-14">Login</button>
                 </div>
               </form>
               <hr>
